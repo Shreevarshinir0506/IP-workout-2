@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Perfumy</title>
+    <link rel="stylesheet" href="workout2.css">
+</head>
+<body>
+    <div class="perfumy">
+        <h2>Perfumy</h2>
+        <div class="list">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="search-box">
+        <input type="text" class="search-input" placeholder="Search">
+    </div>
+    <div class="r1"><h3><center>Fogg Wood Extreme, Eau De Parfum,long-lasting Perfume,100ml</center></h3></div>
+    <div class="r2"><h3><center>Fogg Wood Extreme, Eau De Parfum,long-lasting Perfume,100ml</center></h3></div>
+    <div class="r3"><h3><center>Designer Club-Be Spoke by Perfume Lounge Men's Perfume Premium Long Lasting Perfume</center></h3></div>
+<div class="footer"><footer>About us</footer></div>
+</body>
+</html>
+workout2.css
+.perfumy {
+    width: 100%;
+    height: 70px;
+    border: 2px solid black;
+    position: relative;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.20px;
+}
+
+.list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list li {
+    margin: 0;
+}
+
+.list li a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 20pt;
+}
+
+.list li a:hover,
+.list li a:focus {
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+
+.search-box {
+    width: 70%;
+    margin: 15px;
+    margin-left: 385px;
+}
+
+.search-input {
+    width: 70%;
+    height: 40px;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.r1 {
+    background-image: url(blf.jpg);
+    image-orientation: 20px;
+    height: 358px;
+    width: 270px;
+    margin-left: 202px;
+    margin-top: 237px;
+    border: 2px solid black;
+}
+
+.r2 {
+    background-image: url(g.jpg);
+    height: 355px;
+    width: 270px;
+    margin-left: 596px;
+    margin-top: -359px;
+    border: 2px solid black;
+}
+
+.r3 {
+    background-image: url(bf.jpg);
+    height: 355px;
+    width: 270px;
+    margin-left: 993px;
+    margin-top: -356px;
+    border: 2px solid black;
+}
+
+h3 {
+    padding-top: 278px;
+    justify-content: center;
+}
+
+.footer {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 66px;
+    margin-left: 605px;
+}
+
+ 		g.jpg
+ 	bl.jpg
+ 
